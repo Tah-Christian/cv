@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacts_infos</title>
+</head>
+<body>
+	<h2>Contact Details</h2>
+	<p>My name: Tah Christain</p>
+	<p>Tel: +237 6 71 12 57 63 </p>
+	<hr size="3">
+	<h3>Make a request</h3>
+	<form action="mailto:tahchristian02@gail.com" method="post" enctype="text/plain">
+		<label>Your name:</label>
+		<input type="text" name="clienname"><br>
+		<label>Mobile number:</label>
+		<input type="text" name="number"><br>
+		<label>Email your:</label>
+		<input type="email" name="email"><br>
+	     <h4>Gender</h4>
+		<label>Male</label>
+		<input type="radio" name="gender"><br>
+		<label>Female</label>
+		<input type="radio" name="gender"><br>
+		<h4>Subject</h4>
+		<label>Maths</label>
+		<input type="checkbox" name="topic1"><br>
+		<label>Physics</label>
+		<input type="checkbox" name="topic2"><br>
+		<label>Department:</label>
+		<select name="department">
+			<option value="CE">CE</option>
+			<option value="EE">EE</option>
+			<option value="ME">ME</option>
+		</select><br>
+		<label>Date of birth</label>
+		<input type="date" name="birthday"><br>
+
+		<textarea name="message" rows="10" cols="30">Write me here...</textarea><br>
+		<input type="submit" name="submit">
+
+
+
+	</form>
+
+</body>
+</html>
